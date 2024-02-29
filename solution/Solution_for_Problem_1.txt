@@ -1,0 +1,35 @@
+Analysis of Charging Events
+
+Customer Parking Duration After Charging
+
+Calculate the extra time a customer remains parked after the completion of the charging event.
+Utilize 'Charging Time' and 'Total Duration' columns to determine how long the vehicle stayed beyond charging.
+Percentage of Charge Events with Vehicles Parked After Charging
+
+Identify instances where the vehicle remains parked post-charging.
+Calculate the percentage of such events based on charging portlevel types.
+Use 'Port Type' and 'Level Type' columns for categorization.
+Average Extra Charging Time Across Events
+
+Calculate the average extra time vehicles spend parked after charging.
+Aggregate the 'Extra Time' across all events and compute the mean.
+Explore variations based on different parameters like charging port type or location.
+Data Preprocessing Steps
+
+Data Cleaning
+
+Ensure 'Start Date' and 'End Date' are in datetime format.
+Convert time-related columns ('Start Time Zone', 'End Time Zone') for uniformity.
+Handle missing or inconsistent data.
+Visualization
+
+Utilize graphs or charts to visualize the distribution of extra charging time.
+Plot charging events over time or by location for insights.
+Aggregations
+
+Aggregate data based on charging portlevel types.
+Calculate statistics for each category, such as average extra charging time.
+Further Analysis
+
+Explore correlations with other factors like 'City', 'Plug Type', or 'Country'.
+Consider temporal patterns, e.g., variations in extra charging time during specific hours or days.
